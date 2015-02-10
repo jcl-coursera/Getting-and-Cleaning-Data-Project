@@ -4,13 +4,15 @@ The R-script run_analysis.R creates the tidy dataset required for the "Getting a
 
 The program requires loading the library dplyr, and placing the R-script in the same directory as the following files:
 
-X_test.txt
-subject_test.txt
-y_test.txt
-X_train.txt
-subject_train.txt
-y_train.txt
-features.txt
+*X_test.txt
+*subject_test.txt
+*y_test.txt
+*X_train.txt
+*subject_train.txt
+*y_train.txt
+*features.txt
+
+
 
 The first three files are used to construct the test data set, and the fourth to sixth files to construct the train data set.
 The corresponding instructions in the R-script are:
