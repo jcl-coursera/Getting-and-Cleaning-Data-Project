@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Project
 
 The R-script run_analysis.R creates the tidy dataset required for the "Getting and Cleaning Data" course project.
-Running the script creates the output file, **tidydata_project.txt**
+Running the script creates the output file, **tidydata_project.txt**. The code book 
 
 The script requires loading the library dplyr, and placing the R-script in the same directory as the following files:
 
@@ -66,4 +66,5 @@ and the results are written to a text file:
     out.file <- "tidydata_project.txt"
     if (file.exists(out.file)) file.remove(out.file)
     write.table(mean.subject.activity,file="tidydata_project.txt",row.names=F)
+
 
