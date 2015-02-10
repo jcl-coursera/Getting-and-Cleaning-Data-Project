@@ -4,15 +4,14 @@ The R-script run_analysis.R creates the tidy dataset required for the "Getting a
 
 The program requires loading the library dplyr, and placing the R-script in the same directory as the following files:
 
-*X_test.txt
-*subject_test.txt
-*y_test.txt
-*X_train.txt
-*subject_train.txt
-*y_train.txt
-*features.txt
-
-
+* X_test.txt
+* subject_test.txt
+* y_test.txt
+* X_train.txt
+* subject_train.txt
+* y_train.txt
+* features.txt
+* activity_label.txt
 
 The first three files are used to construct the test data set, and the fourth to sixth files to construct the train data set.
 The corresponding instructions in the R-script are:
@@ -33,7 +32,7 @@ After the test and train datasets are constructed, they are merged into one data
 
     all.data<-rbind(test.data,train.data)
 
-The columns in the data
+The columns in all.data have not been labeled yet. To achieve that, 
 
 ## add labels to data frame
 
