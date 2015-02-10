@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Project
 
 The R-script run_analysis.R creates the tidy dataset required for the "Getting and Cleaning Data" course project.
-Running the script stores the tidy dataset in the text file, **tidydata_project.txt**, which is described in detail in the code book codebook_tidydata_project.txt .
+Running the script stores the tidy dataset in the text file, **tidydata_project.txt**, which is described in detail in the code book **code_book_tidydata_project.txt**.
 the data set.
 
 The script requires loading the library dplyr, and placing the R-script in the same directory as the following files:
