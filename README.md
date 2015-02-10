@@ -17,21 +17,21 @@ The program requires loading the library dplyr, and placing the R-script in the 
 The first three files are used to construct the test data set, and the fourth to sixth files to construct the train data set.
 The corresponding instructions in the R-script are:
 
-test.xdata<-read.table("X_test.txt")
-test.subject<-read.table("subject_test.txt")
-test.ydata<-read.table("y_test.txt")
+    test.xdata<-read.table("X_test.txt")
+    test.subject<-read.table("subject_test.txt")
+    test.ydata<-read.table("y_test.txt")
 
-test.data<-cbind(test.subject,test.ydata,test.xdata)
+    test.data<-cbind(test.subject,test.ydata,test.xdata)
 
-train.xdata<-read.table("X_train.txt")
-train.subject<-read.table("subject_train.txt")
-train.ydata<-read.table("y_train.txt")
+    train.xdata<-read.table("X_train.txt")
+    train.subject<-read.table("subject_train.txt")
+    train.ydata<-read.table("y_train.txt")
 
-train.data<-cbind(train.subject,train.ydata,train.xdata)
+    train.data<-cbind(train.subject,train.ydata,train.xdata)
 
 After the test and train datasets are constructed, they are merged into one data set, all.data
 
-all.data<-rbind(test.data,train.data)
+    all.data<-rbind(test.data,train.data)
 
 The columns in the data
 
